@@ -1,0 +1,1 @@
+package inheritance7_7_26eg;
