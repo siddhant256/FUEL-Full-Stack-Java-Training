@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f0f8ff;
+    text-align:center;
+}
+
+.box{
+    width:500px;
+    margin:100px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h1{
+    color:blue;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Welcome</h1>
+
+<h2>SVPM COE Malegaon(BK)</h2>
+
+<h3 th:text="'Hello ' + ${username}"></h3>
+
+<p>Login Successful</p>
+
+</div>
+
+</body>
+</html>
